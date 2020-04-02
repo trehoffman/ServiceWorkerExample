@@ -1,0 +1,25 @@
+.hidden {
+    display: none !important;
+}
+
+.indicator {
+    width: 232px;
+    height: 232px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+.online-indicator {
+    background-image: url("../img/green.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.offline-indicator {
+    background-image: url("../img/red.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
